@@ -1,9 +1,9 @@
 package org.mx.itesm.partido
 
-class Eleccion {
+class CandidatoEleccion {
 
+	Long id_candidato
 	Long id_eleccion
-	String nombre
 
     static constraints = {
     }
