@@ -13,5 +13,15 @@ class Votante {
 	String codigoPostal
 
     static constraints = {
+    	
+    	id_CURP blank:false, unique:true
+    	nombre blank:false
+    	apellido1 blank:false
+    	apellido2 blank:false
+    	f_nac blank:false
+    	calle blank:false
+    	delegacion blank:false
+    	ciudad blank:false
+    	codigoPostal blank:false
     }
 }
